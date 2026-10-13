@@ -6,7 +6,9 @@ durum takibi, açma/kapama anahtarı, restart, kesintisiz (graceful) reload, yap
 düzenleyici, sanal host listesi, canlı loglar ve web yönetim konsoluna erişim.
 Arayüz **Türkçe ve İngilizce** çalışır.
 
-**Yazar / Vendor:** OmerAti - Ömer ATABER
+![plesk-ekran1.png](https://www.hemenresim.com/i/amw3h0sil4w0)
+
+![plesk-ekran2.png](https://www.hemenresim.com/i/snwz2cr4h5uo)
 
 ## Gereksinimler
 
