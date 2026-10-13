@@ -59,9 +59,7 @@ openlitespeed/
 ### OpenLiteSpeed İndir
 
 ```bash
-cd /tmp && wget -O openlitespeed.zip "$(curl -fsSL 'https://raw.githubusercontent.com/OmerAti/plesk-openlitespeed/refs/heads/main/update.json' | python3 -c 'import sys,json; print(json.load(sys.stdin)["url"])')"
-```
-
+   cd /tmp && wget -O openlitespeed.zip "https://github.com/OmerAti/plesk-openlitespeed/releases/download/v1.0.0/openlitespeed-1.0.0.zip"
    plesk bin extension --install /tmp/openlitespeed.zip
    ```
 **Yazar / Vendor:** OmerAti - Ömer ATABER
