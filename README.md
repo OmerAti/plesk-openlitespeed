@@ -56,7 +56,7 @@ openlitespeed/
 
 ```bash
 cd /tmp
-wget -O openlitespeed.zip "https://github.com/OmerAti/plesk-openlitespeed/releases/download/v1.0.0/openlitespeed-1.0.0.zip"
+wget -O openlitespeed.zip "https://github.com/OmerAti/plesk-openlitespeed/releases/download/v1.3.9/openlitespeed-1.3.9.zip"
 plesk bin extension --install /tmp/openlitespeed.zip
 ```
 
