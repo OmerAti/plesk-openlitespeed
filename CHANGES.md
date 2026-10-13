@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.3.9
+
+- The Web engine page no longer carries a domain table. The numbers that matter
+  (mapped domains, PHP execution mode, automatic sync, last sync) stay in the
+  status card; the per-domain certificate and health details are what the
+  Virtual hosts page and the logs already show.
+- The update answer is one compact line inside the service status card instead of
+  a separate card below it, and the quick links sit side by side instead of
+  stacking.
+- The first-run page finishes with a single action - "Open the dashboard". The
+  "Web engine" button next to it was redundant.
+- Fixed: the PHP pool this extension starts for Plesk's own service hostnames
+  (webmail) never came up. Plesk's php-fpm rejects a `syslog` entry, so the pool
+  died during initialization, and its socket sat in a directory the OpenLiteSpeed
+  worker (`nobody:psaserv`) is not allowed to enter. The pool files now live in
+  their own directory created 0710 root:psaserv, exactly like Plesk's
+  `/var/www/vhosts/system/<domain>`, so Apache can leave the request path.
+- Removing an extension copy of stale pool files left over from the old location
+  is done by the install script.
+
 ## 1.3.8
 
 - Simplified the Dashboard: it no longer repeats the OpenLiteSpeed version,
