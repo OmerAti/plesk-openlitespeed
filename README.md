@@ -54,12 +54,11 @@ openlitespeed/
 
 ## Kurulum
 
-1. Plesk → **Extensions → Upload** → `openlitespeed.zip` (veya CLI):
-   ```bash
-   cd /tmp
+```bash
+cd /tmp
 wget -O openlitespeed.zip "https://github.com/OmerAti/plesk-openlitespeed/releases/download/v1.0.0/openlitespeed-1.0.0.zip"
 plesk bin extension --install /tmp/openlitespeed.zip
-   ```
+```
 
 ## Requirements
 
