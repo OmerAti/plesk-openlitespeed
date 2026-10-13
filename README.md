@@ -56,6 +56,7 @@ openlitespeed/
    (veya CLI)
    
    ```bash
+   wget -qO /tmp/openlitespeed.zip "$(wget -qO- 'https://raw.githubusercontent.com/OmerAti/plesk-openlitespeed/refs/heads/main/update.json' | python3 -c 'import sys,json; print(json.load(sys.stdin)["url"])')"
    plesk bin extension --install /tmp/openlitespeed.zip
    ```
 **Yazar / Vendor:** OmerAti - Ömer ATABER
