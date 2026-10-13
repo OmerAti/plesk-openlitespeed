@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <id>openlitespeed</id>
+  <name>OpenLiteSpeed</name>
+  <description>Manage OpenLiteSpeed from Plesk: let OpenLiteSpeed serve every domain and run PHP in the pools Plesk already starts (Apache stopped), or switch the web front back to nginx+Apache; start, stop, restart and graceful reload, service switch, configuration editor, virtual hosts, live logs, web admin console access and Turkish/English interface. Removal is refused while OpenLiteSpeed is still the web front, so switching back to nginx+Apache comes first.</description>
+  <description xml:lang="tr-TR">OpenLiteSpeed'i Plesk içinden yönetin: OpenLiteSpeed'in tüm alan adlarını servis edip PHP'yi Plesk'in zaten başlattığı havuzlarda çalıştırmasını sağlayın (Apache durdurulur) ya da web ön katmanını nginx+Apache'e geri alın; başlat, durdur, yeniden başlat ve kesintisiz yenileme, servis anahtarı, yapılandırma düzenleyici, sanal hostlar, canlı günlükler, web yönetim konsolu erişimi ve Türkçe/İngilizce arayüz. OpenLiteSpeed web ön katmanıyken eklenti kaldırılamaz; önce nginx+Apache'e dönersiniz.</description>
+  <category>server_tool</category>
+  <version>1.3.8</version>
+  <release>1</release>
+  <author>OmerAti - Ömer ATABER</author>
+  <vendor>OmerAti - Ömer ATABER</vendor>
+  <url>https://github.com/omerati/plesk-openlitespeed</url>
+  <support_url>https://github.com/omerati/plesk-openlitespeed/issues</support_url>
+  <plesk_min_version>17.8.0</plesk_min_version>
+  <os>unix</os>
+</module>
