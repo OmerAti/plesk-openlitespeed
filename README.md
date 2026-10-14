@@ -56,7 +56,7 @@ openlitespeed/
 
 ```bash
 cd /tmp
-wget -O openlitespeed.zip "https://github.com/OmerAti/plesk-openlitespeed/releases/download/v1.3.9/openlitespeed-1.3.9.zip"
+wget -O openlitespeed.zip "https://github.com/OmerAti/plesk-openlitespeed/releases/download/v1.3.9/openlitespeed-1.4.0.zip"
 plesk bin extension --install /tmp/openlitespeed.zip
 ```
 ##  Kurulumdan Sonra web motorundan OpenLiteSpeed Geçiş Yapabilirsiniz
